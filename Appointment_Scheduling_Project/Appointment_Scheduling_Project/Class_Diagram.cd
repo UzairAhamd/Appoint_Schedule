@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Appointment_Scheduling_Project.Model.UnitAppointment">
+    <Position X="9.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIGEAAAAEAQAAAAAAQAIAAgAAAAIAAAAQAQAAA=</HashCode>
+      <FileName>Model\UnitAppointment.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Appointment_Scheduling_Project.Model.UnitDTO">
+    <Position X="14.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACFMmGAEAAEAQAAAAQARBKgAgAAADIQABAQAS0Cg=</HashCode>
+      <FileName>Model\UnitDTO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Appointment_Scheduling_Project.Model.UnitEmployee">
+    <Position X="12.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACEAACAEAAAAAAAAAQABACAAAAAAAAQABAQAAQCg=</HashCode>
+      <FileName>Model\UnitEmployee.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Appointment_Scheduling_Project.Model.UnitLogin">
+    <Position X="11" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAABAAAAAAAAAAAAAAAAQAAQQAAAAA=</HashCode>
+      <FileName>Model\UnitLogin.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Appointment_Scheduling_Project.Model.UnitPatient">
+    <Position X="11" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAFEgCAAAAAAAAAAAQAABAAAAAAAAAQAAAQAAAAg=</HashCode>
+      <FileName>Model\UnitPatient.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Appointment_Scheduling_Project.DataLayer.SQLDataHelper">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIACABAAIAhgBAGAAAAgAAAAAABAAQQFAIAAARAA=</HashCode>
+      <FileName>DataLayer\SQLDataHelper.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Appointment_Scheduling_Project.BusinessLayer.AppointmentBuisness">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIACABAAIAhABAGAAAAgAAAAAABAgQQBAIAAARAA=</HashCode>
+      <FileName>BusinessLayer\AppointmentBuisness.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Appointment_Scheduling_Project.Controllers.AppointmentController">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAEECAAAAAiAAAAACAAAAAAkAEAEAIAAgUBAAAICA=</HashCode>
+      <FileName>Controllers\AppointmentController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Appointment_Scheduling_Project.BusinessLayer.ISQLDataHelper">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIACABAAIAhABAGAAAAgAAAAAABAAQQBAIAAARAA=</HashCode>
+      <FileName>DataLayer\ISQLDataHelper.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Appointment_Scheduling_Project.BusinessLayer.IAppointmentBuisness">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIACABAAIAhABAGAAAAgAAAAAABAAQQBAIAAARAA=</HashCode>
+      <FileName>BusinessLayer\IAppointmentBuisness.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
